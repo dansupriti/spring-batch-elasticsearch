@@ -19,7 +19,7 @@ import java.util.concurrent.ExecutionException;
 /**
  * This class is the job runner, it runs our job every 30 seconds.
  *
- * Created by Florian.Courtial on 05/02/16.
+ * Created by supritidan on 2017/05/11.
  */
 @Component
 public class JobsLauncher {

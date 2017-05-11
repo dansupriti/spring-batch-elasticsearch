@@ -11,9 +11,9 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
 /**
- * This class is the configuration class for our CarToOffer job.
+ * This class is the configuration class for our EmployeeSalary job.
  *
- * @author floriancourtial@gmail.com
+ * Created by supritidan on 2017/05/11.
  */
 @Configuration
 @EnableBatchProcessing
