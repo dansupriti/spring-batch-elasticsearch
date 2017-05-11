@@ -8,6 +8,6 @@ import org.springframework.stereotype.Repository;
  * This class is a repository for the Employee entity.
  * Created by supritidan on 2017/05/11.
  */
-@Repository
+
 public interface EmployeeRepository extends ElasticsearchRepository<Employee, String> {
 }

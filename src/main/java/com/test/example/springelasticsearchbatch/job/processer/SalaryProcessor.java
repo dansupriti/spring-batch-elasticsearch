@@ -6,6 +6,7 @@ import com.test.example.springelasticsearchbatch.entity.Salary;
 import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.springframework.batch.item.ItemProcessor;
+import org.springframework.stereotype.Component;
 
 
 import static org.slf4j.LoggerFactory.getLogger;
@@ -25,11 +26,9 @@ public class SalaryProcessor implements ItemProcessor<Employee, Salary> {
 
         Salary salary = new Salary();
 
-//        offer.setId(car.getId());
-//        offer.setAge(car.getAge());
-//        offer.setMilesNumber(car.getMilesNumber());
-//        offer.setModel(car.getModel());
-//        offer.setPrice(car.getAge() * 100000 - car.getMilesNumber());
+        salary.setId(employee.getId());
+        salary.setAge(employee.getAge());
+
 
         logger.info("Converting : " + employee.toString() + " to " + salary.toString());
 
